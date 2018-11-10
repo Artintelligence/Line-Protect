@@ -6,6 +6,7 @@ import time,random,sys,json,codecs,threading,glob
 
 cl = LineAlpha.LINE()
 cl.login(qr=True)
+cl.login(token="")
 cl.loginResult()
 
 kk = LineAlpha.LINE()
